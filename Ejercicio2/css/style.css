@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to left, #4297A0, #E57F84) ;
+
+}
+
+.back-button {
+	background-color: rgba(225,135,130,0.75);
+	display: block;
+	font-size: 1.2em;
+	font-weight: Bold;
+	height: 50px;
+    color: #000;
+	margin: 32px auto;
+	padding-top: 10px;
+	text-align: center;
+	text-decoration: none;
+	width: 24%;
+}
+
+.back-button:hover {
+	background-color: rgba(225,135,130,0.75);
+	color: #fff;
+	text-decoration: none;
+}
+nav ul {
+	font-size: 0;
+	padding: 0;
+}
+
+nav ul li {
+	background: rgba(0,0,0,.5);
+	display: inline-block;
+	font-size: 16px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	padding: 10px 0;
+	vertical-align: top;
+	width: 30%;
+}
+div{
+    width: 50%;
+    margin: auto;
+    padding-top: 2em;
+    margin-top: 3.5em;
+    height: 5vw;
+    background-color: #F4EAE6;
+}
+nav ul li:hover{
+    background:rgba(0,0,120,0.25);
+}
+
+nav ul li img {
+    display: block;
+    height: 125px;
+    margin: 0 auto;
+    width: 132px;
+}
+
+nav ul li a {
+    color: #DDD;
+    display: block;
+    font-weight:bold;
+    text-align:center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #F6F600;
+}
+
+#menu{
+	background: #2F5061;
+	margin: 0 auto;
+	max-width: 960px;
+}
+
+#menu-options ul li {
+	height: auto;
+	width: 320px;
+}
